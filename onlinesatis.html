@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        .right{
+            position: absolute;
+            left: 795px;
+            top: 300px;
+            border-radius: 100px;
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            padding-right: 10px;
+
+        }
+          .left{
+            position: absolute;
+            top: 300px;
+            border-radius: 100px;
+            width: 20px;
+            height: 20px;
+            background-color: white;
+             padding-left: 10px;
+        }
+    </style>
+    <script src="assets/js/jquery-3.1.0.min.js"></script>
+<script src="assets/js/vendor/bootstrap.min.js"></script>
+<script src="assets/js/main.js"></script>
+</head>
+<body>
+       <div class="w3-content w3-display-container">
+  <img class="mySlides" src="assets/img/slide/1.jpg" style="width:60%">
+  <img class="mySlides" src="assets/img/slide/2.jpg" style="width:60%">
+  <img class="mySlides" src="assets/img/slide/3.jpg" style="width:60%">
+  <img class="mySlides" src="assets/img/slide/4.jpg" style="width:60%">
+
+  <a class="left" onclick="plusDivs(-1)">&#10094;</a>
+  <a class="right" onclick="plusDivs(1)">&#10095;</a>
+</div>
+</body>
+</html>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
