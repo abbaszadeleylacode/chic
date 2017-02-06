@@ -1,0 +1,146 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <style type="text/css">
+        .onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+    </style>
+    <body>
+        
+        <section id="menu">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 menu">
+                        <nav class="navbar navbar-inverse" role="navigation">
+                       
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                </button>
+                            <img style="width: 100px;height: 55px;" src="assets/img/logowhite.png"></a>
+                            </div>
+                            <div class="container" >
+                                <div  id="navbarCollapse" class="collapse navbar-collapse">
+                                    <ul class="nav navbar-nav pull-right" id="right_menu">
+                                      
+                                     <!--    <li><a href="#"><img src="assets/img/notif/notification.png">Notification </a></li> -->
+                                     <li><a href=""><div class="onoffswitch">
+                                            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+                                            <label class="onoffswitch-label" for="myonoffswitch">
+                                                <span class="onoffswitch-inner"></span>
+                                                <span class="onoffswitch-switch"></span>
+                                            </label>
+                                        </div></a></li>
+                                        <li><a href="#"><img src="assets/img/notif/search.png">Axtarış</a></li>
+                                        <li><a href="#"><img src="assets/img/notif/like.png">Bəyən</a></li>
+                                        <li><a href="#"><img src="assets/img/notif/share.png">Paylaş</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        
+                    </div>
+                </div>
+                
+            </section>
+
+<section id="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" id="line">
+              <a href="#">  <div id="menu_alt"> <img src="assets/img/112.png">Haqqımızda</div></a>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-md-12" id="line">
+               <a href="#"><div id="menu_alt"> <img src="assets/img/111.png">Online rezervasiya</div></a>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-md-12" id="line">
+                <a href="#"><div id="menu_alt"> <img src="assets/img/112.png"> Online satış</div></a>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-md-12" id="line">
+                <a href="#"><div id="menu_alt"> <img src="assets/img/111.png">Kompaniyalar</div></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="line">
+                <a href="elaqe.html"><div id="menu_alt"> <img src="assets/img/112.png">Əlaqə</div></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+            <script src="assets/js/jquery-3.1.0.min.js"></script>
+            <script src="assets/js/vendor/bootstrap.min.js"></script>
+            <script src="assets/js/main.js"></script>
+        </body>
+    </html>

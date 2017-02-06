@@ -1,0 +1,51 @@
+#right_menu img{
+   width: 20px;
+   height: 20px;
+}
+body{
+	background-color: #262626;
+}
+#menu_alt{
+	min-width: auto;
+	
+	height: 40px;
+	background-color: white;
+	color:#F27421;
+	border-radius: 42px;
+	padding-top: 5px;
+	margin-top: 8px;
+
+
+}
+
+#menu_alt img{
+  width: 30px;
+  height: 30px;
+  margin-left: 20px; 
+}
+.navbar-header img{
+margin-left: 33%;
+}
+
+#line a{
+text-decoration: none;
+}
+
+#elaqe_con{
+	min-width: auto;
+	
+	height: 40px;
+	background-color: white;
+	color:#F27421;
+	
+	 padding-top:-5px;
+	margin-top: 8px;
+}
+#elaqe_con i{
+ padding-top: 5px;
+margin-left: 20px;
+margin-right: 20px;
+}
+#elaqe_content a{
+text-decoration: none;
+}
