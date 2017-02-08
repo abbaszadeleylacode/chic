@@ -89,9 +89,7 @@ body{
             background: #4d5256;
             color: #191919;
         }
-        .leyla  img{
-                width: 10px;
-        }
+       
 }
 
 
@@ -99,8 +97,32 @@ body{
 @media screen and (max-width: 550px) {
  .navbar {
     position: relative;
-    min-height: 0px;
-   
-    
+    min-height: 0px;  
 }
+ #xett h4{
+    font-size: 30px;
+ }
+ #footer .frame{
+   margin-top: 30px;
+ }
+#footer img{
+   margin-top: 30px;
+ }
     }
+
+#footer{
+    a{
+        color:#3A3A3C;
+        letter-spacing: 14px;
+    }
+}
+
+
+
+
+ .mesafe{
+    margin-top: 30px;
+    background-color:red;
+}
+   
+   

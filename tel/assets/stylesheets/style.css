@@ -31,6 +31,10 @@ margin-left: 33%;
 text-decoration: none;
 }
 
+#line_reserv{
+	margin: 10px;
+}
+
 #elaqe_con{
 	min-width: auto;
 	
